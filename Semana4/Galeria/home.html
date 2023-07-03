@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+      .carousel-caption h5{
+          font-size: 35px;
+      } 
+      .carousel-caption p{
+          font-size: 20px;
+      }
+      .carousel-item { 
+          margin-bottom: 10px;
+          width: 100%;
+          height: 750px;
+      }
+      .carousel-item img { 
+          width: 100%;
+          height: 850px;
+      }
+      .pie-imagen{
+        position: relative;
+        background-color: rgba(7, 7, 7, 0.582);
+        padding: 0;
+        width: 100%;
+        height: 170px;
+        left: 1px;
+        bottom: 300px;
+      }
+      .container-card{
+        margin-top: 100px;
+      }
+      .card{
+        height: 360px;
+      }
+      .btn-group{
+        position: relative;
+        top: 10px;
+      }
+      
+      
+  </style>
+</head>
+<body>
+    <div class="container-fluid">
+            <header class="p-3 text-bg-dark">
+                <div class="container">
+                  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                    </a>            
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                      <li><div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Galeria Santa Ana
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="home.html">Inicio</a></li>
+                          <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+                        </ul>
+                      </div></li>
+                      <li><a href="tickects.html" class="nav-link px-2 text-white">Tickets</a></li>
+                      <li><a href="Tienda.html" class="nav-link px-2 text-white">Tienda</a></li>
+                      <li><a href="singin.html" class="nav-link px-2 text-white">Crear cuenta</a></li>
+                    </ul>            
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                      <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                    </form>            
+                    <div class="text-end">
+                      <button type="button" class="btn btn-outline-light me-2">Ingrese</button>
+                      <button type="button" class="btn btn-warning">Cuenta nueva</button>
+                    </div>
+                  </div>
+                </div>
+              </header>
+        <main>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div>
+                        <img src="img/Nocheestrellada.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block pie-imagen">
+                      <h5>Noche estrellada sobre el Ródano</h5>
+                      <p>Ródano es un río que comienza en los montes Suizos. Desemboca en el mar Mediterráneo y atraviesa además  el sur de Francia, antes de transformarse en dos ríos, el gran Ródano, y el pequeño Ródano. Era un río importante para los habitantes de Arles, ya que funcionaba como un medio para el comercio. Y debido al interés de van Gogh por pintar la naturaleza, era de esperarse que también pintara el río.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Nocheestrellada1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block pie-imagen">
+                      <h5>Noche estrellada</h5>
+                      <p>“La noche estrellada” evoca la imagen de una de las pinturas mas conocidas de van Gogh, un árbol de cipreses frente un fondo azul en la media noche, donde aparecen espirales y torcidas estrellas. Sin embargo, ésta no es la noche estrellada que van Gogh creó.​</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Nocheestrellada2.jpg" class="d-block w-100" alt="..." >
+                    <div class="carousel-caption d-none d-md-block pie-imagen">
+                      <h5>Los comedores de patatas.</h5>
+                      <p>Acostumbrados como estamos a los populares cuadros coloridos de Van Gogh, Los comedores de patatas nos sorprende. Con una paleta terrosa y casi barroca, Van Gogh representa la escena de una familia de campesinos compartiendo en la cena las papas que ellos mismos han cultivado.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>           
+              <div class="container-card">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg1.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Bodegones de peces, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg2.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Cangrejo sobre su espalda, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">11 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg3.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Árboles en el campo: Óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">3 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>          
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg4.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Campo de trigo con cipreses, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">10 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg5.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Paisaje con nieve, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">6 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg6.jpg" class="d-block w-100" width="100%" height="225px" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Campo con lirios, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">10 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>          
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg7.jpg" class="d-block w-100" width="100%" height="225" alt="...">          
+                      <div class="card-body">
+                        <p class="card-text">Atardecer en el campo, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">5 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg8.jpg" class="d-block w-100" width="100%" height="225" alt="...">         
+                      <div class="card-body">
+                        <p class="card-text">Campo de cuervos, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="img/vg9.jpg" class="d-block w-100" width="100%" height="225" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Tronco de arbol, óleo sobre lienzo de Vincent van Gogh.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Detalles</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Tecnica</button>
+                          </div>
+                          <small class="text-muted">15 mins</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </main>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 Galleria Santa Ana</p>
+          </footer>
+    </div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
