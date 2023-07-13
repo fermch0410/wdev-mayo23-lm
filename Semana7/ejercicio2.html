@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="container-fluid">
+        <p>
+            ejercicio1 = """ Una persona tiene $100.000 y decide invertir $70.000 en bonos hipotecarios a un 5% (mensual) y el resto en un depósito a plazo a 10% (mensual). ¿Cuánto dinero ganará esta persona después de un mes? 6500 """ #70000 + 5% #2 mes (70000 + 5%) +5 %
+        </p>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+      <script>
+        var compra = 12000;
+        var descuento = 1000;
+        var impuesto = 13/100;
+        //primero el descuento
+        var preciobruto = compra - descuento;
+        var montoimpuesto = preciobruto * impuesto;
+        var precioneto = preciobruto + montoimpuesto; 
+        //primero el impuesto
+        var montoimpuesto2 = compra * impuesto;
+        var preciobruto2 = compra + montoimpuesto2;
+        var precioneto2 = preciobruto2 - descuento;
+        alert ("Si se aplica primero el descuento seria un moto de " + precioneto);
+        alert ("Si se aplica primero el impuesto seria un moto de " + precioneto2);
+    </script>
+</body>
+
+</html>
